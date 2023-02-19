@@ -10,6 +10,8 @@
         <PackageProjectUrl>https://github.com/cwm-nith/BAS24.Lib</PackageProjectUrl>
         <RepositoryUrl> https://github.com/cwm-nith/BAS24.Lib
 </RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/cwm-nith/BAS24.Lib/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageTags>dotnet, ecom, BAS24</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
