@@ -7,12 +7,12 @@ namespace BAS24.Libs.Swagger;
 
 public static class Extensions
 {
-    public static IServiceCollection AddSwagger(this IServiceCollection services, string? docFileName)
+    public static IServiceCollection AddSwagger(this IServiceCollection services, string? docFileName = null)
     {
         // Register the Swagger generator, defining 1 or more Swagger documents
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "UNT SD Development APIs", Version = "v1" });
+            // c.SwaggerDoc("v1", new OpenApiInfo { Title = "UNT SD Development APIs", Version = "v1" });
 
             c.ExampleFilters();
 
@@ -51,13 +51,13 @@ public static class Extensions
         return services;
     }
 
-    public static IServiceCollection AddSwagger<THeader>(this IServiceCollection services, string? docFileName)
+    public static IServiceCollection AddSwagger<THeader>(this IServiceCollection services, string? docFileName = null)
         where THeader : IOperationFilter
     {
         // Register the Swagger generator, defining 1 or more Swagger documents
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "UNT SD Development APIs", Version = "v1" });
+            // c.SwaggerDoc("v1", new OpenApiInfo { Title = "UNT SD Development APIs", Version = "v1" });
 
             c.ExampleFilters();
 
