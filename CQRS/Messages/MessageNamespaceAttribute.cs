@@ -1,7 +1,7 @@
 namespace BAS24.Libs.CQRS.Messages;
 
 [AttributeUsage(AttributeTargets.Class)]
-public class MessageNamespaceAttribute
+public class MessageNamespaceAttribute:Attribute
 {
     public string Namespace { get; }
 
