@@ -8,9 +8,7 @@ public static class Extenstions
     public static IHostBuilder UseLogging(this IHostBuilder host, string? applicationName = null)
         => host.UseSerilog((context, loggerConfiguration) =>
         {
-            // var options = context.Configuration.GetOptions<LoggerOptions>("Serilog");
-            var options = new LoggerOptions();
-            context.Configuration.GetSection(LoggerOptions.Name).Bind(options);
+            var options = context.Configuration.GetOptions<LoggerOptions>(LoggerOptions.Name);
             if (!string.IsNullOrWhiteSpace(options.ApplicationName))
             {
                 applicationName = options.ApplicationName;
