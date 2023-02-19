@@ -10,11 +10,14 @@
         <PackageProjectUrl>https://github.com/cwm-nith/BAS24.Lib</PackageProjectUrl>
         <RepositoryUrl> https://github.com/cwm-nith/BAS24.Lib
 </RepositoryUrl>
-        <PackageLicenseUrl>https://github.com/cwm-nith/BAS24.Lib/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageTags>dotnet, ecom, BAS24</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
+      <None Include="LICENSE" Pack="true" PackagePath=""/>
+      <None Include="README.md" Pack="true" PackagePath="\"/>
       <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.3" />
