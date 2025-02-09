@@ -19,7 +19,7 @@
       <None Include="LICENSE" Pack="true" PackagePath="" />
       <None Include="README.md" Pack="true" PackagePath="\" />
       <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.20" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
