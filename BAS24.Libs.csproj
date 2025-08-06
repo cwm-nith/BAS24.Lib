@@ -20,12 +20,12 @@
       <None Include="README.md" Pack="true" PackagePath="\" />
       <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.8" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
-      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.7" />
-      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.7" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.7" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.8" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
       <PackageReference Include="Scrutor" Version="6.1.0" />
@@ -34,7 +34,7 @@
       <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
       <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="9.0.0" />
-      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.0" />
       <PackageReference Include="TimeZoneConverter" Version="7.0.0" />
     </ItemGroup>
 
