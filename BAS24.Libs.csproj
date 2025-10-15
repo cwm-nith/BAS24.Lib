@@ -20,7 +20,7 @@
       <None Include="README.md" Pack="true" PackagePath="\" />
       <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.10" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
